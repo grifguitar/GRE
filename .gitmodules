@@ -33,3 +33,6 @@
 [submodule "src/competitor/hot/src"]
 	path = src/competitor/hot/src
 	url = https://github.com/speedskater/hot.git
+[submodule "src/competitor/hindex/src"]
+	path = src/competitor/hindex/src
+	url = https://github.com/grifguitar/cppindex.git
