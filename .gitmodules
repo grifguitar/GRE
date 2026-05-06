@@ -29,7 +29,7 @@
 	url = https://github.com/pohchaichon/index-microbench.git
 [submodule "src/competitor/finedex/src"]
 	path = src/competitor/finedex/src
-	url = https://github.com/pohchaichon/FINEdex.git
+	url = https://github.com/grifguitar/FINEdex.git
 [submodule "src/competitor/hot/src"]
 	path = src/competitor/hot/src
 	url = https://github.com/speedskater/hot.git
