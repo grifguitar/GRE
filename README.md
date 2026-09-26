@@ -24,8 +24,29 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release .. && make
 ```
 
-## Basic usage
+## Run
+To download keyset:
+```
+cd datasets
+bash download.sh
+```
+
 To calculate throughput:
+```
+./build/microbench \
+--keys_file=./datasets/books \
+--data_shift \
+--keys_file_type=binary \
+--read=1.0 --insert=0.0 \
+--operations_num=100000000 \
+--table_size=-1 \
+--init_table_ratio=1.0 \
+--thread_num=1 \
+--index=btree,finedex,hindex \
+--error_bound=32
+```
+
+## Basic usage
 ```
 ./build/microbench \
 --keys_file=./data/dataset \
