@@ -6,14 +6,15 @@ See details in our VLDB 2022 paper below. If you use our work, please cite:
 Chaichon Wongkham, Baotong Lu, Chris Liu, Zhicong Zhong, Eric Lo, and Tianzheng Wang. Are Updatable Learned Indexes Ready?. PVLDB, 15(11): 3004 - 3017, 2022.
 ```
 
-## Requirements
+## Requirements & Dependencies
 - gcc 8.3.0+
 - cmake 3.14.0+
-
-## Dependencies
 - intel-mkl 2018.4.274
 - intel-tbb 2020.3
 - jemalloc
+```
+sudo apt install gcc g++ gdb intel-mkl libtbb12 libtbb-dev libjemalloc2 libjemalloc-dev cmake
+```
 
 ## Build
 ```
