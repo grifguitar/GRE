@@ -361,4 +361,18 @@ cmake-build*
 
 !src/competitor/wormhole/src
 
+datasets/covid
+datasets/libio
+datasets/genome
+datasets/osm
 datasets/books
+datasets/fb
+datasets/history
+datasets/planet
+datasets/stack
+datasets/wise
+datasets/wiki
+datasets/eth
+datasets/gnomad
+datasets/planetways
+datasets/rev
