@@ -30,6 +30,7 @@
 [submodule "src/competitor/finedex/src"]
 	path = src/competitor/finedex/src
 	url = https://github.com/grifguitar/FINEdex.git
+	branch = main
 [submodule "src/competitor/hot/src"]
 	path = src/competitor/hot/src
 	url = https://github.com/grifguitar/hot.git
